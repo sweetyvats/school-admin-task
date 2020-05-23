@@ -1,8 +1,4 @@
-um+1
-elif condition_check="no":
-condition=False
-elif condition_check="no":
-print("\nPlease re-enter the values!")
+
 import csv
 def write_into_csv(info_list):
 with open('student_info.csv','a',newline=' ')as csv_file:
@@ -34,6 +30,7 @@ write_into_csv(student_info_list)
 condition_check=input("Enter (yes/no) if you want to enter the information of another student:")
 if condition_check="yes":
 condition=True
+student_num=student_num+1
 elif condition_check=="no"
 condition=False
 elif condition_check=="no"
